@@ -55,6 +55,8 @@ public class Utilities {
 	public String getJSONFieldValue(Response resp, String key){
 		JsonPath js= new JsonPath(resp.asString());
 		System.out.println("added in dummmy git");
+		System.out.println("added in main proj 1");
+		System.out.println("added in main proj 2");
 		return js.get(key).toString();
 	}
 	
