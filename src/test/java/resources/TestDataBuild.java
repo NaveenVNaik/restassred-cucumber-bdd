@@ -31,4 +31,8 @@ public class TestDataBuild {
 	public String getDeletePlacePayload(String placeId){
 		return "{ \"place_id\":\""+placeId+"\" }";
 	}
+	
+	public void getany(){
+	  sysout("by architech in develop branch");	
+	}
 }
